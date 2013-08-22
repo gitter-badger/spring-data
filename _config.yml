@@ -27,7 +27,7 @@ name: Spring Data
 project: spring-data
 
 # Project github URL
-github: https://github.com/spring-projects/spring-data
+github_repo_url: http://github.com/spring-projects/spring-data
 
 # A forum link specific to this project
 forum: http://forum.stage.springsource.org/forum/spring-projects/data
