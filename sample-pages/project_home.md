@@ -1,6 +1,34 @@
 ---
 layout: base_layout
 title: Spring Project Title
+
+badges:
+  twitter: spring-data-jpa
+
+  custom:
+    - name: CI (Bamboo)
+      url:  https://ci.spring.io/browse/SPRINGDATAJPA
+      icon: ci
+
+    - name: Source (GitHub)
+      url:  https://github.com/spring-projects/spring-data-jpa
+      icon: github
+
+    - name: Issues (JIRA)
+      url:  https://github.com/spring-projects/spring-data-jpa
+      icon: tracking
+
+    - name: Forum (vBulletin)
+      url:  http://forum.spring.io/forum/spring-projects/data
+      icon: forum
+
+    - name: StackOverflow
+      url:  http://so.com/questions/tagged/spring-data-jpa
+      icon: stackoverflow
+    - name: Metrics (SonarQube)
+      url:  https://sonar.springsource.org/dashboard/index/org.springframework.data:spring-data-jpa
+      icon: metrics
+
 ---
 
 <!-- Specify the parent of this project (or delete if none) to influence the rendering of the breadcrumb -->
