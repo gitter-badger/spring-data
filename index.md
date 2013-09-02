@@ -15,12 +15,12 @@ Makes it easy to implement JPA-based repositories
 
 {% include project_block.md site_url="/spring-data-jpa" repo_url="http://github.com/spring-projects/spring-data-jpa" project_title="Spring Data JPA" project_description=project_description %}
 
-<!-- Spring Data MongoDB -->
+<!-- Spring Data Redis -->
 {% capture project_description %}
-Provides integration with the MongoDB document database
+Provides easy configuration and access to Redis from Spring applications
 {% endcapture %}
 
-{% include project_block.md site_url="http://www.springframework.io" repo_url="http://github.com/spring_hadoop" project_title="Apache Hadoop" project_description=project_description %}
+{% include project_block.md site_url="/spring-data-redis" repo_url="http://github.com/spring-projects/spring-data-redis" project_title="Spring Data Redis" project_description=project_description %}
 
 <!-- end main_content -->
 {% endcapture %}
