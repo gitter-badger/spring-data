@@ -23,6 +23,9 @@ Provides easy configuration and access to Redis from Spring applications
 {% include project_block.md site_url="/spring-data-redis" repo_url="http://github.com/spring-projects/spring-data-redis" project_title="Spring Data Redis" project_description=project_description %}
 
 <!--Spring Data GemFire -->
+{% capture project_description %}
+Provides easy configuration and access to GemFire from Spring applications
+{% endcapture %}
 {% include project_block.md site_url="/spring-data-gemfire" repo_url="http://github.com/spring-projects/spring-data-gemfire" project_title="Spring Data GemFire" project_description=project_description %}
 
 <!-- end main_content -->
