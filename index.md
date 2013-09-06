@@ -28,6 +28,12 @@ Provides easy configuration and access to GemFire from Spring applications
 {% endcapture %}
 {% include project_block.md site_url="/spring-data-gemfire" repo_url="http://github.com/spring-projects/spring-data-gemfire" project_title="Spring Data GemFire" project_description=project_description %}
 
+<!--Spring Data JDBC Extensions -->
+{% capture project_description %}
+Provides extensions to the JDBC support provided in the Spring Framework
+{% endcapture %}
+{% include project_block.md site_url="/spring-data-jdbc-ext" repo_url="http://github.com/spring-projects/spring-data-jdbc-ext" project_title="Spring Data JDBC Extensions" project_description=project_description %}
+
 <!-- end main_content -->
 {% endcapture %}
 
