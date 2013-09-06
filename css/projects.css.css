@@ -129,6 +129,7 @@
 .project-header--wrapper {
   background-color: #666;
   border-bottom: 1px solid #34302D;
+  min-height: 400px;
 }
 .project-header--wrapper .billboard--container {
   margin: 60px 0;

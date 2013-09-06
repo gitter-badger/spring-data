@@ -22,7 +22,6 @@
 <div class="project--description">
 {{ include.billboard_description | markdownify }}
 </div>
-<a class="btn btn-black uppercase project-quickstart-btn" href="#quick-start">Quick Start</a>
 </div>
 </div>
 </div>
