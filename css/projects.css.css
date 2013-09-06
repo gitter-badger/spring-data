@@ -9,6 +9,7 @@
   margin: 0 6px 20px 6px;
   vertical-align: top;
   text-align: center;
+  float: left;
 }
 .projects--wrapper .project--container .project-logo--container {
   margin-bottom: 25px;
