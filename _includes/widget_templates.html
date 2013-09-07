@@ -75,7 +75,17 @@
         <version>{@= version @}</version>
     </dependency>
 </dependencies>
-{@ if (repository) { @}
+{% endcapture %}
+{% endif %}
+
+<script type="text/html" id="project-download-maven-widget-template">
+{% highlight xml %}
+{{ maven_pom_template }}
+{% endhighlight %}
+</script>
+
+<script type="text/html" id="project-repository-maven-widget-template">
+{% highlight xml %}
 <repositories>
     <repository>
         <id>{@= repository.id @}</id>
@@ -85,11 +95,9 @@
             <enabled>{@= repository.snapshotsEnabled @}</enabled>
         </snapshots>
     </repository>
-</repositories>{@ } @}
-{% endcapture %}
-{% endif %}
-
-<script type="text/html" id="project-download-maven-widget-template">{{ maven_pom_template | escape }}</script>
+</repositories>
+{% endhighlight %}
+</script>
 
 {% capture gradle_template %}
 {% include build.gradle %}
@@ -100,17 +108,24 @@
 dependencies {
     compile '{@= groupId @}:{@= artifactId @}:{@= version @}'
 }
-{@ if (repository) { @}
+{% endcapture %}
+{% endif %}
+
+<script type="text/html" id="project-download-gradle-widget-template">
+{% highlight groovy %}
+{{ gradle_template }}
+{% endhighlight %}
+</script>
+
+<script type="text/html" id="project-repository-gradle-widget-template">
+{% highlight groovy %}
 repositories {
     maven {
         url '{@= repository.url @}'
     }
 }
-{@ } @}
-{% endcapture %}
-{% endif %}
-
-<script type="text/html" id="project-download-gradle-widget-template">{{ gradle_template | escape }}</script>
+{% endhighlight %}
+</script>
 
 <script type="text/html" id="project-download-zip-widget-template">
 This is a zip url
