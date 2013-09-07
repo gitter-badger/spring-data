@@ -71,32 +71,15 @@ body {
 }
 .header--navbar .navbar-inner .spring-logo--container {
   display: inline-block;
-  padding: 15px 0;
 }
-.header--navbar .navbar-inner .spring-logo--container .logo-bg {
-  width: 37px;
-  height: 30px;
-  border-radius: 30px;
-  margin: 10px 0 0 1px;
-  top: 13px;
-  background-color: #6db33f;
-  position: absolute;
-  z-index: 1034;
-  opacity: 0;
-  transition: opacity 0.15s;
-  -webkit-transition: opacity 0.15s;
-  -moz-transition: opacity 0.15s;
-  -o-transition: opacity 0.15s;
-  -ms-transition: opacity 0.15s;
-}
+
 .header--navbar .navbar-inner .spring-logo--container .spring-logo {
-  background-image: url("../img/iconsprite.png");
+  background: url("../img/iconsprite.png") -1px -1px no-repeat;
   width: 153px;
-  height: 40px;
-  background-repeat: no-repeat;
-  background-position: -1px -1px;
-  position: absolute;
-  z-index: 1035;
+  height: 46px;
+  display: inline-block;
+  margin: 12px 0 6px;
+  text-decoration: none;
 }
 .header--navbar .navbar-inner .spring-logo--container:hover .logo-bg {
   opacity: 1;
